@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/output.css" rel="stylesheet">
+    <title>Tailwind css</title>
+</head>
+<body>
+    <div class="bg-[#E4FAF4] py-2 flex justify-end items-center px-6">
+        <div class="flex items-center gap-x-4 pr-[25px]">
+            <div class="flex items-center gap-2">
+                <img src="./assets/images/phone.svg" alt="phone img">
+                <a href="#">Download App</a>
+            </div>
+            <a href="#">Blog</a>
+            <div class="flex items-center gap-2">
+                <a href="#">English</a>
+                <img src="./assets/images/dropdown.svg" alt="phone img">
+            </div>
+        </div>
+    </div>
+    <header class="container mx-auto my-7 flex justify-between items-center">
+        <a href=""><img src="./assets/images/logo.svg" alt="logo img"></a>
+    <div class="items-center gap x hidden lg:flex">
+        <div class="flex items-center bg-[#F5F5F5] h-10 w-[240px] px-4 gap-x-3">
+            <img src="./assets/images/search.svg"alt="seacrh img">
+            <input
+            type="search"
+            class="text-sm outline-none mx-2"
+            placeholder="Search all mutual funds"/>
+        </div>
+        <nav>
+            <ul class="flex items-center gap-x-6">
+                <li>
+                    <a href="">Learn with Fund Guru</a>
+                </li>
+                <li>
+                    <a href="">Explore Funds</a>
+                </li>
+                <li>
+                    <a href="">Ask the Expert</a>
+                </li>
+                <li>
+                    <a href=""class="font-bold">Login/Register</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="flex flex-col gap-y-1 cursor-pointer lg:hidden">
+    <span class="w-7 h-1 bg-[#222222]"></span>
+    <span class="w-7 h-1 bg-[#222222]"></span>
+    <span class="w-7 h-1 bg-[#222222]"></span>
+    </div>  
+</header>
+
+<!--hero-->
+<section class="container mx-auto my-10 flex items-center justify-between">
+    <div>
+    <h1 class="text-[40px] max-w-96 mb-3.5">
+    Investing made
+    <span class="relative">
+        <span
+           class="absolute w-full h-2.5 bg-[#E4FAF4] left-0 bottom-0" >
+       </span>
+       <span class="relative z-10">Easy</span>
+    </span>
+    for you
+    </h1>
+    <p class="max-w-96 text-[17px]">
+        India's fastest growing investment platform with 20 Lac+ users. We use edge-cutting technology to ensure that your personal information is fully encrypted and securely stored.
+    </p>
+    <button class="bg-[#00D09C] mt-10 flexc px-8 py-4 text-white rounded ">Get Started Now</button>
+    </div>
+    <img src="./assets/images/banner1.jpg"alt="banner"class="lg:block"/>
+</section>
+<!--new section-->
+<section>
+    <div class="new flex justify-between items-center bg-[#E4FAF4] h-[190px]">
+     <div class="flex flex-col">
+        <h1 class="text-[30px] max-w-96 mb-3.5">
+        Trusted by Millions of People</h1>
+        <p class="max-w-96 text-[17px]">
+            
+        We are registered as a distributor with AMFI, as an investment advisor with SEBI and platform partners with BSE.
+        </p>
+     </div>
+    <div class="flex justify-between">
+        <img src="./assets/images/Investing1.svg" alt="in1">
+        <img src="./assets/images/Investing2.svg" alt="in2">
+        <img src="./assets/images/Investing3.svg" alt="in3">
+    </div>
+</div>
+</section>       
+</body>
+</html>

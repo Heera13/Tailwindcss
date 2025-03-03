@@ -1,0 +1,8 @@
+a{
+    color: #222222;
+}
+.flexc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
