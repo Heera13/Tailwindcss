@@ -6,3 +6,18 @@ a{
     justify-content: center;
     align-items: center;
 }
+body{
+    color: #222222;
+}
+
+h2{
+    font-family: "Lato", sans-serif;
+}
+p{
+    font-family: "Lato", sans-serif;
+}
+.container{
+    @media(width>=96rem){
+        max-width: 1200px;
+    }
+}
