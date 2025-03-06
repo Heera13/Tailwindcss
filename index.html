@@ -10,7 +10,7 @@
     <title>Tailwind css</title>
 </head>
 <body>
-    <div class="container mx-auto bg-[#E4FAF4] py-2 flex justify-end items-center px-6">
+    <div class="container mx-auto bg-[#E4FAF4] py-2 flex justify-end items-center px-6 hidden lg:flex">
         <div class="flex items-center gap-x-4 pr-[25px]">
             <div class="flex items-center gap-2">
                 <img src="./assets/images/phone.svg" alt="phone img">
@@ -25,16 +25,16 @@
     </div>
  <header class="container mx-auto my-7 flex justify-between items-center">
         <a href=""><img src="./assets/images/logo.svg" alt="logo img" class="ml-[219px]"></a>
-    <div class="items-center gap x hidden lg:flex">
-        <div class="flex items-center bg-[#F5F5F5] h-10 w-[240px] px-4 gap-x-3 mr-7">
+    <div class="items-center gap x lg:flex">
+        <div class="flex items-center lg:flex items-center bg-[#F5F5F5] h-10 w-[240px] px-4 gap-x-3 mr-7">
             <img src="./assets/images/search.svg"alt="seacrh img">
             <input
             type="search"
-            class="text-sm outline-none mx-2"
+            class="bg-transparent outline-none text-sm text-gray-600 placeholder-gray-400 w-full ml-2"
             placeholder="Search all mutual funds"/>
         </div>
         <nav>
-            <ul class="flex items-center gap-x-6">
+            <ul class="hidden lg:flex items-center gap-x-6">
                 <li>
                     <a href="">Learn with Fund Guru</a>
                 </li>
@@ -75,7 +75,7 @@
     </p>
     <button class="bg-[#00D09C] mt-10 flexc px-8 py-4 text-white rounded ">Get Started Now</button>
     </div>
-    <img src="./assets/images/banner1.jpg"alt="banner"class="lg:block"/>
+    <img src="./assets/images/banner1.jpg"alt="banner"class="hidden lg:block"/>
 </section>
 <!--new section-->
 <section>
@@ -87,7 +87,7 @@
                 We are registered as a distributor with AMFI, as an investment advisor with SEBI and platform partners with BSE.
             </p>
      </div>
-    <div class="flex mt-9 gap-x-11 mb-10 ml-[-309px] items-center">
+    <div class="flex flex:col lg:flex mt-9 gap-x-11 mb-10 ml-[-309px] items-center">
         <div class="flex flex-col items-center p-4 rounded-md border border-[#00D09C]/20 bg-[#EFFFFA]">
           <img src="./assets/images/Investing1.svg" alt="in1">
           <p class="text-[14px] text-gray-700 mt-2">ATR-823742</p>
@@ -104,7 +104,7 @@
 </div>
 </section>       
 <section class="container mx-auto">
-    <div class="second flex justify-between items-center h-[791px] margin-0-auto">
+    <div class="flex flex col lg: flex justify-between items-center h-[791px] margin-0-auto">
         <img  class="h-[470px] mx-auto" src="./assets/images/Fund.svg" alt="guru img">
         <div class="flex flex-col mx-auto margin-0-auto gap-y-3">
             <h3 class="text-[17px]">About mutual funds</h3>
@@ -184,9 +184,9 @@
     </div>
 </section>
 <section class="container mx-auto mt-[127px] shadow-[0_-20px_10px_-5px_rgba(128,128,128,0.3)]">
- <div class="flex justify-between mb-3 mt-[10px]">
+ <div class="flex justify-between mb-3">
             <div class="flex flex-col mx-auto">
-                <img src="./assets/images/Group 19.png" alt="logo" class="w-[100px] h-[100px]">
+                <img src="./assets/images/Group 19.png" alt="logo" class="w-[100px] h-[100px] mt-[10px]">
                 <h2 class="text-[30px] font-bold ml-[27px]">Neo Funds</h2>
             </div>
          <div class="flex justify-between mx-auto gap-x-8 ml-[20px]">
