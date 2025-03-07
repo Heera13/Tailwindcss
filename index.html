@@ -25,7 +25,7 @@
     </div>
  <header class="max-w-[1850px] mx-auto my-7 flex justify-around items-center">
     <div>
-        <img src="./assets/images/logo.svg" alt="logo img" class=" pl-[115px]">
+        <img src="./assets/images/logo.svg" alt="logo img" class=" pl-[3px]">
     </div>
     <div class="items-center lg:flex">
         <div class="hidden lg:flex items-center bg-[#F5F5F5] h-10 w-[240px] px-4 gap-x-3 mr-7">
@@ -69,7 +69,7 @@
 </div>
 
 <!--hero-->
-<section class="container mx-auto pl-[20px] my-10 flex items-center justify-between gap-[260px]">
+<section class="container mx-auto pl-[20px] my-10 flex items-center justify-between gap-[377px]">
     <div class="mx-auto">
     <h1 class="text-[40px] max-w-96 mb-3.5">
     Investing made
@@ -87,7 +87,7 @@
     <button class="bg-[#00D09C] mt-10 flexc px-8 py-4 text-white rounded ">Get Started Now</button>
     </div>
     <div>
-    <img src="./assets/images/banner1.jpg"alt="banner"class="hidden lg:block mr-[120px]"/>
+    <img src="./assets/images/banner1.jpg"alt="banner"class="hidden lg:block pr-[126px]"/>
     </div>
 </section>
 <!--new section-->
@@ -115,10 +115,11 @@
         </div>
     </div>
     </div>
-</section>       
+</section> 
+<!-- Fund guru       -->
 <section class="container mx-auto">
-    <div class="flex flex col lg: flex justify-between items-center h-[791px] margin-0-auto">
-        <img  class="h-[470px] mx-auto" src="./assets/images/Fund.svg" alt="guru img">
+    <div class="flex flex-col px-[30px] py-[50px] gap-[50px] lg:flex-row justify-between items-center h-[791px]">
+        <img  class="mx-auto" src="./assets/images/Fund.svg" alt="guru img">
         <div class="flex flex-col mx-auto margin-0-auto gap-y-3">
             <h3 class="text-[17px]">About mutual funds</h3>
             <h2 class="text-[40px] font-bold">Learn with Fund Guru</h2>
@@ -158,12 +159,13 @@
         </div>
     </div>
 </section>
+<!-- Ask expert -->
 <section class="max-w-[1850px] mx-auto bg-gradient-to-t from-[#FFFFFF] to-[#E4FAF4]"> 
-    <div class="flex items-center justify-center gap-[100px]">
+    <div class="lg:flex items-center justify-center lg:gap-[100px]">
         <div class="flex flex-col ">
-            <h2 class="text-[40px] font-bold">Ask the Expert</h2>
+            <h2 class="text-[40px] font-bold pl-[10px] mt-[10px]">Ask the Expert</h2>
             <p class="text-[17px] mt-8">You can schedule a meeting with an expense manager</p>
-            <div class="flex items-center mx-auto gap-6">
+            <div class="flex flex-col items-center mx-auto gap-6 lg:flex-row">
                 <div class="flex flex-col items-start gap-y-3 mt-12">
                     <img class="bg-[#E8F9F5] rounded-md border w-[62px] h-[62px] p-4 border-[#00D09C]/20" src="./assets/images/cash.svg" alt="cash img">
                     <h2 class="text-[24px] font-bold">Investing made easy</h2>
@@ -179,22 +181,22 @@
             </div>
         </div>
         <div>
-            <img src="./assets/images/Expert.png" alt="ask img"class="mx-auto mt-10">
+            <img src="./assets/images/Expert.png" alt="ask img"class="mx-auto mt-10 hidden lg:block">
 
         </div>
 
     </div>
 </section>
-<section class="max-w-[1850px] mt-48 mx-auto bg-gradient-to-b from-[#FFFFFF] to-gray-50">
+<section class="max-w-[1850px] mt-48 mx-auto bg-gradient-to-b from-[#FFFFFF] to-gray-50 pr-[33px] pl-[10px]">
     <div class="flex flex-col items-center justify-center mt-10 mb-3">
         <h2 class="text-[30px] text-center font-bold">Manage your Investment from your hand.</h2>
         <p class="text-[17px] w-[414px] text-center mt-10">Now you will be at ease of investing, buying and<br>selling easier with just a click.</p>
         <h2 class="text-[24px] mt-10 font-bold">Download the App now</h2>
-        <div class="flex justify-between gap-4 mt-4">
+        <div class="flex justify-between gap-4 mt-4 relative">
           <button><img src="./assets/images/app.svg" alt="app img"></button>
           <button><img src="./assets/images/app2.svg" alt="app2 img"></button>
-        </div>
-        <div class="mr-[-669px] mb-[36px] mt-[-39px]">
+          <img src="./assets/images/chat.svg"alt="chat img" class="lg:hidden absolute right- bottom-">
+        <div class="mr-[-669px] mb-[36px] mt-[-39px] hidden lg:block">
             <img src="./assets/images/chat.svg"alt="chat img">
         </div>
     </div>
@@ -269,7 +271,7 @@
 </section>
 </body>
 <footer class="max-w-[1850px] mx-auto">
-    <div class="flex mt-10 justify-between border-t border-gray-200 px-12 py-8 text-gray-500 text-sm ">
+    <div class="flex mt-10 justify-between border-t border-gray-200 px-12 py-8 text-gray-500 text-sm hidden ">
          <p class="text-[12px] ml-[220px]">Copyright 2019 Mutal Funds. All rights reserved.</p>
             <div class="flex gap-x-3 mx-auto ml-[664px]">
                 <img src="./assets/images/social 1.svg"alt="soc1">
@@ -278,5 +280,14 @@
                 <img src="./assets/images/social 4.svg"alt="soc4">
             </div>
     </div>
+    <div class="flex flex-col mt-10 justify-between border-t border-gray-200 px-12 py-8 text-gray-500 text-sm lg:hidden ">
+        <div class="flex gap-x-3 mx-auto ml-[664px]">
+            <img src="./assets/images/social 1.svg"alt="soc1">
+            <img src="./assets/images/social 2.svg"alt="soc2">
+            <img src="./assets/images/social 3.svg"alt="soc3">
+            <img src="./assets/images/social 4.svg"alt="soc4">
+        </div>
+        <p class="text-[12px]">Copyright 2019 Mutal Funds. All rights reserved.</p>
+   </div>
 </footer>
 </html>
